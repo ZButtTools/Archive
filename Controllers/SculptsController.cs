@@ -8,7 +8,8 @@ using Archive.Data;
 
 namespace Archive.Controllers
 {
-
+    [ApiController]
+    [Route("[controller]")]
     public class SculptsController : ControllerBase{
 
         private readonly ArchiveContext _context;
